@@ -78,7 +78,7 @@ export async function addFeedItemToNotion(notionItem) {
         embed: {
           url: link
         }
-       }
+       },
       content,]
     });
   } catch (err) {
