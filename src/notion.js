@@ -80,7 +80,7 @@ export async function addFeedItemToNotion(notionItem) {
           url: link
         }
        },
-      content,]
+      content],
     });
   } catch (err) {
     console.error(err);
