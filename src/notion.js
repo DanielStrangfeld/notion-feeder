@@ -74,7 +74,8 @@ export async function addFeedItemToNotion(notionItem) {
         },
       },
       children: 
-      [{type: 'embed',
+      [{object: 'block',
+        type: 'embed',
         embed: {
           url: link
         }
